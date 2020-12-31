@@ -1,0 +1,10 @@
+<!-- 创建视图模版  -->
+<template name="items">
+  <!--  wx:for 循环创建该标签下方的子节点 -->
+  <!-- 每次循环都会创建 一个 item 隐藏的对象引用 当前迭代的对象 -->
+  <block wx:for="{{array}}">
+    <view class="item" bindtap="" id="0">
+      <image src="{{item.img}}" style="width:75px;heigth:58px;"></image>
+    </view>
+  </block>
+</template>

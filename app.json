@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/tabs/home",
+    "pages/tabs/shop",
+    "pages/tabs/find",
+    "pages/tabs/me",
+    "pages/user/register",
+    "pages/movie/movie"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "Xin福先生",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "black",
+    "enablePullDownRefresh": true,
+    "list": [
+      {
+      "pagePath": "pages/tabs/home",
+      "text": "推荐",
+      "iconPath": "images/ic_main_tab_recommend_normal.png",
+      "selectedIconPath": "images/ic_main_tab_recommend_selected.png"
+    },
+    {
+      "pagePath": "pages/tabs/shop",
+      "text": "店铺",
+      "iconPath": "images/ic_main_tab_lesson_normal.png",
+      "selectedIconPath": "images/ic_main_tab_lesson_selected.png"
+    },
+    {
+      "pagePath": "pages/tabs/find",
+      "text": "发现",
+      "iconPath": "images/ic_main_tab_discovery_normal.png",
+      "selectedIconPath": "images/ic_main_tab_discovery_selected.png"
+    },
+    {
+      "pagePath": "pages/tabs/me",
+      "text": "我的",
+      "iconPath": "images/ic_main_tab_mine_normal.png",
+      "selectedIconPath": "images/ic_main_tab_mine_selected.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

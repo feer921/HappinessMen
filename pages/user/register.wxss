@@ -1,0 +1,16 @@
+/* pages/user/register.wxss */
+
+.inputBlock{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.inputBlock view{
+  margin-left: 20px;
+  margin-top: 14px;
+}

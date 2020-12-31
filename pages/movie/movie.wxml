@@ -1,0 +1,43 @@
+<!-- 访豆瓣电影 -->
+
+<!-- 导航栏 -->
+
+<view class="nav">
+  <view id="0" class="{{currentIndex==0?'selected':'normal'}}" bindtap="clickTab">上映</view>
+  <view id="1" class="{{currentIndex==1?'selected':'normal'}}" bindtap="clickTab">影院</view>
+  <view id="2" class="{{currentIndex==2?'selected':'normal'}}" bindtap="clickTab">我的</view>
+</view>
+
+
+<!-- 滑动页面：三个 -->
+
+<!-- swiper: 用途：配合导航做滑动页面 -->
+<!-- swiper: 用途：轮播图 -->
+
+<!-- swiper-item 下标位置 index :0 开始 -->
+<swiper current="{{currentIndex}}">
+   
+  <swiper-item >
+    <!-- 轮播图 -->
+    <swiper indicator-dots="{{isShowBannerIndicator}}" 
+      autoplay="{{isBannerAutoPlay}}" 
+      interval="{{swipeIntervel}}" 
+      duration="{{bannerShowDuration}}" >
+        <block wx:for="{{bannerImgs}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-img" style="height:120px; width:100%;"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    电影列表
+    
+  </swiper-item>
+
+  <swiper-item>
+    影院内容
+  </swiper-item>
+
+  <swiper-item>
+    我看内容
+  </swiper-item>
+</swiper>

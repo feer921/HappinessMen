@@ -1,0 +1,4 @@
+<!--pages/tabs/home.wxml-->
+<text>pages/tabs/home.wxml</text>
+<navigator url="/pages/user/register"> 手机注册</navigator>
+<navigator url="/pages/movie/movie">豆瓣电影</navigator>

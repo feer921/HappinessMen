@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#1A1A1A",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "豆瓣电影",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
